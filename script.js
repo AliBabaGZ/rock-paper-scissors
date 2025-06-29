@@ -13,15 +13,10 @@ function getComputerChoice() {
   }
 }
 
-
-
 function getHumanChoice() {
-  let input = prompt(
-    "Please enter a choice of either: Rock, Paper, Scissors"
-  ).toLowerCase();
+  let input = prompt("Please enter a choice of either: Rock, Paper, Scissors").toLowerCase();
   return input;
 }
-
 
 function playRound(humanChoice, computerChoice) {
   if (humanChoice === "rock" && computerChoice === "scissors") {
@@ -70,5 +65,4 @@ function playGame() {
   }
 }
 
-playGame()
-
+playGame();
